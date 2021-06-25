@@ -1,0 +1,27 @@
+{
+  "name": "stepperstartover",
+  "version": "1.0.0",
+  "description": "Typescript friendly, Material UI Stepper implementation in React Native",
+  "main": "lib/cjs/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarveshwins/react-native-startover-stepper.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "reactnative"
+  ],
+  "author": "Sarvesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarveshwins/react-native-startover-stepper/issues"
+  },
+  "homepage": "https://github.com/Sarveshwins/react-native-startover-stepper#readme"
+}

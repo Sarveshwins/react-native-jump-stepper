@@ -1,0 +1,20 @@
+import { ReactNode } from 'react';
+declare type Props = {
+    position?: number;
+    title?: string;
+    color?: string;
+    subTitle?: string;
+    orientation:string;
+    nextButtonText?: string;
+    previousButtonText?: string;
+    startOverButtonText?: string;
+    allowTapOnTitle?: boolean;
+    onTitleTap?: Function;
+    children: ReactNode;
+    onNext?: (...params: any[]) => Promise<boolean | string>;
+    onPrevious?: (...params: any[]) => Promise<boolean | string>;
+    onStartOver?: (...params: any[]) => Promise<boolean | string>;
+    onJumpOver?: (...params: any[]) => Promise<boolean | string>;
+};
+export declare function StepView({ position, title, subTitle, children,color, onNext, onPrevious,onStartOver,onJumpOver, orientation,nextButtonText, previousButtonText,startOverButtonText, allowTapOnTitle, onTitleTap, }: Props): JSX.Element;
+export {};
